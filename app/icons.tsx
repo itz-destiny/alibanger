@@ -157,3 +157,58 @@ export const Menu = (p: SVGProps<SVGSVGElement>) => (
     <path d="M3 12h18M3 6h18M3 18h18" />
   </svg>
 );
+
+export const Gauge = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M12 2a10 10 0 1 0 10 10" />
+    <path d="M12 6v1M6 12H5M12 18v-1M18.5 6.5l-.7.7" />
+    <path d="M12 12l3.5-4.5" />
+    <circle cx="12" cy="12" r="1.5" fill="currentColor" />
+  </svg>
+);
+
+export const Battery = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <rect x="2" y="7" width="16" height="10" rx="2" />
+    <path d="M22 11v2" />
+    <path d="M7 11v2M10 11v2" />
+  </svg>
+);
+
+export const SunIcon = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <circle cx="12" cy="12" r="4" />
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+  </svg>
+);
+
+export const Grounding = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M12 2v12" />
+    <path d="M5 14h14" />
+    <path d="M7 18h10" />
+    <path d="M9 22h6" />
+  </svg>
+);
+
+export const Building = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <rect x="3" y="3" width="18" height="18" rx="1" />
+    <path d="M3 9h18M9 21V9" />
+    <path d="M12 13h.01M12 17h.01M16 13h.01M16 17h.01" />
+  </svg>
+);
+
+export const Leaf = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z" />
+    <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+  </svg>
+);
+
+export const Check = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <circle cx="12" cy="12" r="10" />
+    <path d="m9 12 2 2 4-4" />
+  </svg>
+);
