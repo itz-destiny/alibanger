@@ -53,7 +53,7 @@ const PROJECTS: { img: string; tag: string; title: string; alt: string; pos?: st
 
   // ── Panel Servicing & Switch Rooms ──
   { img: "/img/p-panel-room.png",    tag: "Maintenance",  title: "11kV Panel Servicing",            alt: "Engineer servicing 11kV switch panels" },
-  { img: "/img/p-panel-ryb.png",    tag: "Panel Works",  title: "LV Panel Cable Termination",       alt: "R-Y-B cable termination in LV panel" },
+  { img: "/img/p-panel-ryb.png", tag: "Panel Works",  title: "Low Voltage Panel / Cable Installation",    alt: "Low voltage panel cable installation" },
   { img: "/img/p-panel-wiring.png", tag: "Panel Works",  title: "Panel Wiring & Commissioning",     alt: "Engineer wiring LV distribution panel" },
   { img: "/img/p-hv-switch-room.png", tag: "HV Switch Room", title: "High Voltage Switch Room",    alt: "High voltage switch room with multiple panels" },
   { img: "/img/proj-6.jpg",         tag: "Panel Installation", title: "MV / LV Switchgear Unit",   alt: "Voltage panel installation" },
@@ -61,7 +61,7 @@ const PROJECTS: { img: string; tag: string; title: string; alt: string; pos?: st
   // ── Tower Earthing & Lightning Protection ──
   { img: "/img/p-tower-earthing.png",   tag: "Tower Earthing",    title: "Lightning Arrestor Tower",       alt: "Tall steel tower for lightning protection" },
   { img: "/img/p-tower-climbing.png",   tag: "Tower Earthing",    title: "Tower Earthing Installation",    alt: "Engineer installing tower earthing system" },
-  { img: "/img/p-indelec-arrestor.png", tag: "Lightning Protection", title: "Indelec Thunder Arrestor",    alt: "Indelec thunder arrestor installation",    pos: "center 38%" },
+  { img: "/img/p-indelec-arrestor.png", tag: "Lightning Protection", title: "Installation of Indelec Thunder Arrestor", alt: "Indelec thunder arrestor installation",    pos: "center 38%" },
   { img: "/img/p-deep-well-earthing.png", tag: "Earthing Works",  title: "Deep Well Earthing System",      alt: "Deep well earth system drilling and testing", pos: "center 38%" },
 
   // ── Generator & Control Room ──
@@ -179,7 +179,7 @@ export default function Home() {
             <a href={`tel:${PHONES[0]}`} className="btn ghost"><Phone /> 0803 544 6978</a>
           </div>
           <div className="stats">
-            <div className="stat"><b>15<span className="yellow">+</span></b><span>Years Experience</span></div>
+            <div className="stat"><b>25<span className="yellow">+</span></b><span>Years Experience</span></div>
             <div className="stat"><b>500<span className="yellow">+</span></b><span>Projects Completed</span></div>
             <div className="stat"><b>100<span className="yellow">%</span></b><span>Safety Commitment</span></div>
           </div>
@@ -207,7 +207,7 @@ export default function Home() {
             <div className="main"><img src="/img/about-1.jpg" alt="Alibanger technician servicing a transformer" /></div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <div className="sub"><img src="/img/about-2.jpg" alt="Engineer beside power transformer" /></div>
-            <div className="badge"><b>15+</b><span>Years<br />Experience</span></div>
+            <div className="badge"><b>25+</b><span>Years<br />Experience</span></div>
           </div>
           <div className="about-copy reveal reveal-right">
             <div className="sec-tag">About Alibanger</div>
