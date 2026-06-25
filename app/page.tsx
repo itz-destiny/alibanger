@@ -44,7 +44,7 @@ const PROJECTS: { img: string; tag: string; title: string; alt: string; pos?: st
   { img: "/img/p-transformer-install.png",   tag: "Transformer Installation", title: "Transformer Installation & Fencing",        alt: "Transformer installed in fenced compound",       pos: "center 38%" },
   { img: "/img/p-transformer-500kva.png",    tag: "Transformer Installation", title: "500KVA Transformer — Deep Well Earthing",   alt: "500KVA transformer installation",               pos: "center 38%" },
   { img: "/img/p-step-up-transformer.png",   tag: "Transformer Installation", title: "500KVA Step-Up Transformer Installation",   alt: "500KVA step-up transformer",                    pos: "center 38%" },
-  { img: "/img/p-transformer-2500kva.png",   tag: "Transformer Installation", title: "2.5MVA / 33KV Transformer — Stockgap",      alt: "2.5MVA 33KV transformer at Stockgap tank farm", pos: "center 38%" },
+  { img: "/img/p-transformer-33kv.png",       tag: "Transformer Installation", title: "2.5MVA / 33KV Transformer (Step Down: 33KV to 415V)", alt: "2.5MVA 33KV step-down transformer installation" },
 
   // ── HT / LT Line Stringing ──
   { img: "/img/p-ht-pole.png",              tag: "HT / LT Stringing", title: "High Tension Line Connection",      alt: "Engineer on high tension pole with insulators" },
