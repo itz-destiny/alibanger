@@ -40,7 +40,7 @@ const SAFETY_POINTS = [
 
 const PROJECTS: { img: string; tag: string; title: string; alt: string; pos?: string }[] = [
   // ── Transformer Installation ──
-  { img: "/img/proj-1.jpg",                  tag: "Transformer Installation", title: "Distribution Transformer Setup",            alt: "Transformer installation" },
+  { img: "/img/proj-1.jpg",                  tag: "Transformer Installation", title: "Distribution Transformer (Step Up: 415V to 11KV)", alt: "Distribution transformer step up from 415V to 11KV" },
   { img: "/img/p-transformer-install.png",   tag: "Transformer Installation", title: "Transformer Installation & Fencing",        alt: "Transformer installed in fenced compound",       pos: "center 38%" },
   { img: "/img/p-transformer-500kva.png",    tag: "Transformer Installation", title: "500KVA Transformer — Deep Well Earthing",   alt: "500KVA transformer installation",               pos: "center 38%" },
   { img: "/img/p-step-up-transformer.png",   tag: "Transformer Installation", title: "500KVA Step-Up Transformer Installation",   alt: "500KVA step-up transformer",                    pos: "center 38%" },
